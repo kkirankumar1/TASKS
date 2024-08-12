@@ -273,31 +273,30 @@ div:target {
 }
 
 .skill-detail h4 {
+    flex: 1;
     font-size: 35px;
     margin-right: 40px;
 }
 
 .skill-detail {
     background-color: transparent;
-    width: 170px;
+    width: auto;
     bottom: 40px;
     display: flex;
     align-items: center;
+    margin-bottom: 15px;
 }
 
- .skill-detail i {
+.icon-align {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 30px;
-    height: 30px;
+    flex: 2;
+    justify-content: left;
+}
+
+.icon-align i {
     margin-right: 5px;
-    border-radius: 50px;
-    text-decoration: none;
     color: #ffffff;
     font-size: 30px;
-    /* border: 1px solid white; */
 }
 
 .project h1 {
