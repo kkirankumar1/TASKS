@@ -335,7 +335,7 @@ ul.icoo {
     width: 400px;
     height: 60px;
     margin: 20px;
-    border: 5px solid gray;
+    border: 4px solid gray;
     background-color: rgb(104, 104, 241);
     display: flex;
     align-items: center;
@@ -376,14 +376,16 @@ ul.icoo {
     display: flex;
     background-color: transparent;
     padding: 10px;
-    width: 100%;
+    width: auto;
     border: 2px solid grey;
     border-radius: 10px;
 }
 
 .detail-form {
-    width: 50%;
+    display: flex;
     flex: 1;
+    flex-direction: column;
+    padding-right: 140px;
 }
 
 .detail-form label {
@@ -409,6 +411,14 @@ ul.icoo {
     margin: 5px;
 }
 
+.comment {
+    width: 100%;
+}
+.details-container{
+    display: flex;
+    align-items: center;
+}
+
 textarea {
     height: 200px;
     padding: 10px;
@@ -422,6 +432,7 @@ textarea {
 .final-submit {
     display: flex;
     justify-content: center;
+    /* margin-right: 55px; */
 }
 
 .final-submit a {
@@ -444,11 +455,4 @@ textarea {
     background-color: black;
     color: white;
 
-}
-
-.comment {
-    width: 50%;
-    display: flex;
-    flex: 2;
-    justify-content: right;
 }
