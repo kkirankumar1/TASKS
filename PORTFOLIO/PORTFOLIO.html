@@ -20,18 +20,18 @@
             <a href="#home" class="active">Home</a>
             <a href="#about">About</a>
             <a href="#portfolio">Portfolio</a>
+            <a href="#resume">CV</a>
             <a href="#contact">Contact</a>
-            <a href="RESUME.pdf" target="_blank">CV</a>
         </nav>
     </header>
 
     <section id="home" class="home">
         <div class="home-content">
-            <div class="container">
+            <div class="containerrrr">
                 <div class="home-declaration">
                     <h1>Hi, I am Kiran</h1>
                     <h2>Frontend Developer</h2>
-                    <p>TO BE WRITTEN!.....Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus, repellendus dolores. Vero ullam quibusdam debitis eaque expedita at voluptatibus animi autem. Dolorum quisquam ipsa natus incidunt ut ex atque cupiditate.</p>
+                    <p>Hey there! I'm Kiran, a Frontend Developer with a passion for crafting seamless and user-friendly web experiences. I love turning ideas into interactive digital solutions using HTML, CSS, and JavaScript. My focus is on creating visually appealing, responsive interfaces that users enjoy. Right now, I'm diving into the latest front-end trends to keep things fresh and exciting. Let's build something amazing together!</p>
                 </div>
 
                 <div class="img-slf">
@@ -96,12 +96,16 @@
                 <div class="skills">
                     <h1>Skills</h1>
                     <div class="skill-detail">
-                        <h4 style="display: inline-block;">C</h4>
-                        <i class='bx bxs-bolt-circle' ></i>
-                        <i class='bx bx-bolt-circle' ></i>
-                        <i class='bx bx-bolt-circle' ></i>
-                        <i class='bx bx-bolt-circle' ></i>
-                        <i class='bx bx-bolt-circle' ></i>
+                        <div class="skill-align">
+                            <h4 style="display: inline-block;">C</h4>
+                        </div>
+                        <div class="icon-align">
+                            <i class='bx bxs-bolt-circle' ></i>
+                            <i class='bx bx-bolt-circle' ></i>
+                            <i class='bx bx-bolt-circle' ></i>
+                            <i class='bx bx-bolt-circle' ></i>
+                            <i class='bx bx-bolt-circle' ></i>
+                        </div>
                     </div>
                     <div class="skill-detail">
                         <h4 style="display: inline-block;">Python</h4>
@@ -158,9 +162,10 @@
         </div>
     </section>
 
-    <section class="portfolio">
-        <div class="portfolio-content" id="portfolio">
+    <section class="portfolio" id="portfolio">
+        <div class="portfolio-content">
             <div class="project">
+                <h1 >Portfolio</h1>
                 <h1 >Projects</h1>
                 <ul class="icoo">
                     <li>Project on “Alcohol Detection and Automatic Ignition Cut Off".</li>
@@ -177,9 +182,42 @@
                     <li>Internship on “Front end Web Development” offered by Motion cut.</li>
                     <li>Internship on “Data Engineering Virtual Internship” offered by Amazon Web Services (AWS).</li>
                     <li>Internship on “Fundamental on Cloud Security and Cyber Security” offered by PaloAlto.</li>
-
                 </ul>
             </div>
+        </div>
+    </section>
+
+    <section class="resume" id="resume">
+        <div class="resume-detail">
+            <a href="RESUME.pdf" target="_blank">Download Resume</a>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h1>Contact</h1>
+        <div class="contact-content">
+            <form>
+                <div class="detail-form">
+                    <label for="fname" name="Firstname">Firstname</label><br>
+                    <input type="text" id="fname" name="Firstname"><br>
+
+                    <label for="lname" name="Lastname">Lastname</label><br>
+                    <input type="text" id="lname" name="Lastname"><br>
+
+                    <label for="email" name="email">Email</label><br>
+                    <input type="email" id="email" name="email"><br>
+
+                    <label for="query" name="query">Query</label><br>
+                    <input type="text" id="query" name="query" ><br>
+                </div>
+                
+                <div class="comment">
+                    <label for="message" name="message">Message:</label><br>
+                    <textarea type="text" id="message" name="message" placeholder="Your Message to Kiran"></textarea>
+                </div>
+
+                <button type="submit"><a href="">Submit</a></button>
+            </form>
         </div>
     </section>
 
