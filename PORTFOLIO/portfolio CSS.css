@@ -129,7 +129,7 @@ section {
 }
 
 .home-declaration p {
-    font-size: 20px;
+    font-size: 17px;
     text-align: justify;
 }
 
@@ -274,7 +274,7 @@ div:target {
 
 .skill-detail h4 {
     flex: 1;
-    font-size: 35px;
+    font-size: 25px;
     margin-right: 40px;
 }
 
@@ -296,7 +296,7 @@ div:target {
 .icon-align i {
     margin-right: 5px;
     color: #ffffff;
-    font-size: 30px;
+    font-size: 25px;
 }
 
 .project h1 {
