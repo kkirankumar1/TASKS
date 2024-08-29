@@ -1,8 +1,12 @@
 body {
     background-color: #D8D8D8 !important;
     box-sizing: border-box;
-    /* z-index: -2; */
 }
+
+/* header {
+    z-index: 1;
+    position: fixed;
+} */
 
 section {
     margin: 10px 15px;
@@ -15,12 +19,8 @@ section {
     height: 65px;
     background-color: white;
     margin-bottom: 10px;
+    
 }
-
-/* .navbar .container-fluid {
-   
-   
-} */
 
 .inputbox{
     border: none;
@@ -172,3 +172,65 @@ section {
     font-size: 14px;
 }
 
+/* .carousel-indicators {
+    color: black;
+    background-color: black;
+} */
+
+.smartphone-ext {
+    /* justify-content: space-between; */
+}
+
+.smartphone-ext a {
+    width: 100%;
+    height: 70px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.best-deals {
+    width: 83%;
+    height: 280px;
+    background-color: white;
+    display: inline-flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 3px;
+    overflow-x: scroll;
+    margin-bottom: 10px;
+}
+
+.deals-detail {
+    overflow-x: scroll;
+}
+
+.deals-detail a {
+    text-decoration: none;
+    color: black;
+    white-space: nowrap;
+}
+
+.deals-detail .card {
+    width: 190px;
+    height: 200px;
+    align-items: center;
+    justify-content: center;
+    margin: 0 5px;
+}
+
+.deals-detail img {
+    width: 100px;
+    height: 130px;
+    
+}
+
+.individual-ad {
+    flex-wrap: wrap;
+    display: flex;
+}
+
+.individual-ad a {
+    height: auto;
+    width: 420px;
+}
