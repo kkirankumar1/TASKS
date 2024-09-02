@@ -238,7 +238,7 @@ section {
 }
 
 
-/* --------VERTICAL ADS---------- */
+/* ---------VERTICAL ADS---------- */
 
 
 .vertical-ad {
@@ -290,8 +290,27 @@ section {
 
 .footerend {
     background-color: black;
-    height: 70px;
+    color: white;
+    font-size: 13px;
+    padding: 19px;
 }
-.foot-detail {
-    width: 50%;
+
+.footerend h5 {
+    color: gray;
+    font-size: 13px;
 }
+
+.foot-detail1 {
+    width: 700px;
+    height: 80%;
+    
+}
+
+.dtl1 div {
+    margin-right: 30px;
+}
+
+.dtl2 div {
+    margin-right: 25px;
+}
+
