@@ -78,7 +78,7 @@ section {
     color: black;
 }
 
-.card-detail {
+.cart-detail {
     width: 110px;
     background-color: white;
     border-radius: 8px;
@@ -90,7 +90,7 @@ section {
     color: black;
 }
 
-.card-detail i {
+.cart-detail i {
     width: 30px;
     height: 30px;
     font-size: 27px;
@@ -242,38 +242,49 @@ section {
 
 
 .vertical-ad {
-    width: 470px;
-    height: 600px;
     background-color: white;
     border-radius: 7px;
+    margin-bottom: 30px;
+    width: 100%;
+}
+
+.verti-individual {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
 }
 
 .vertical-ad .vertical-ext a {
     text-decoration: none;
     color: black;
     font-weight: bold;
-    /* border: none;
-    outline: none; */
 }
 
-.vertical-ad .card a {
-    width: 120px;
-    height: auto;
+.verti-individual a {
+    text-decoration: none;
+    color: black;
 }
-.vertical-ad .card{
+.verti-individual .card{
+    height: 100%;
     display: flex;
-    flex-wrap: wrap;
+    align-items: center;
+    padding: 10px;
+    justify-content: center;
 }
 
-.vertical-ad .card-data img {
-    width: auto;
+.vertical-ad .verti-individual img {
+    width: 170px;
     height: auto;
 }
 
 
 /* --------LAST INFORMATION SECTION------- */
 
-.flip-info p{
+.flip-info {
+    margin-bottom: 30px;
+}
+
+.flip-info p {
     font-size: 13px;
     text-align: justify;
     margin: 10px;
@@ -312,5 +323,10 @@ section {
 
 .dtl2 div {
     margin-right: 25px;
+}
+
+.dtl2 i {
+    font-size: 25px;
+    margin: 0 5px;
 }
 
