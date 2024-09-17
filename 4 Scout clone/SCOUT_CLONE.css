@@ -1,0 +1,58 @@
+
+.container {
+    margin: 0 20px;
+}
+
+.navbar > ul > li > a {
+    color: gray;
+}
+
+.navbar > .container > a {
+    font-weight: bold;
+    font-size: 23px;
+}
+
+.text-primary {
+    color: #f85d23 !important;
+}
+
+.hero {
+    height: 100vh;
+    /* position: relative; */
+}
+
+/* .hero .image-hero {
+    width: 50%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100vh;
+    min-height: 700px;
+    background-position:top center;
+    background-repeat: no-repeat;
+    z-index: 1;
+} */
+
+
+/* ----TESTIMONY COMMENT SE------- */
+
+
+.comm-testimony {
+    background-color: #f85d23;
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+    text-align: justify;
+}
+
+.person-icon {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.person-icon img {
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+    border-radius: 15px;
+}
