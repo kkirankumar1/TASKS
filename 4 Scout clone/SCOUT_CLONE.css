@@ -1,58 +1,207 @@
 
-.container {
-    margin: 0 20px;
-}
 
 .navbar > ul > li > a {
-    color: gray;
+  color: gray;
 }
 
 .navbar > .container > a {
-    font-weight: bold;
-    font-size: 23px;
+  font-weight: bold;
+  font-size: 23px;
+  color: black;
 }
 
-.text-primary {
-    color: #f85d23 !important;
+.container > .collapse > .nav-item > a {
+  color: black;
 }
 
-.hero {
-    height: 100vh;
-    /* position: relative; */
+.container .text-primary {
+  color: #f85d23 !important;
 }
 
-/* .hero .image-hero {
-    width: 50%;
-    position: absolute;
-    right: 0;
-    top: 0;
-    height: 100vh;
-    min-height: 700px;
-    background-position:top center;
-    background-repeat: no-repeat;
-    z-index: 1;
-} */
+/* --------TOP NAV--------- */
 
+.menu-icons {
+  font-size: 20px;
+}
+
+.menu-icons a {
+  color: black;
+  text-decoration: none;
+  margin: 0 5px;
+}
+
+/* --------INTRO SE------- */
+
+.counter {
+  font-size: 30px;
+  font-weight: 500;
+}
+
+/* -------FEATURES SE--------- */
+
+.icon i {
+  font-size: 40px;
+  margin-bottom: 30px;
+  color: #f85d23;
+}
+
+
+
+/* --------PRICING SE--------- */
+
+
+
+.pricing-template {
+  padding: 20px;
+  border: 1px solid black;
+}
+
+.color-code {
+  background-color: #f85d23;
+  color: white;
+}
+
+.price {
+  margin-bottom: 20px;
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.pricing-template .btn {
+  background-color: transparent;
+  border: 1px solid black;
+  color: #f85d23;
+  border-radius: 0px;
+}
+
+.color-code .btn {
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+  border-radius: 0px;
+}
+
+/* -------ABOUT US---------- */
+
+.aboutus-detail i {
+  width: 90px;
+  height: 90px;
+  font-size: 30px;
+  color: #f85d23;
+  border-radius: 50%;
+  background: rgba(248, 93, 35, 0.05);
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  margin-bottom: 10px;
+}
 
 /* ----TESTIMONY COMMENT SE------- */
 
-
 .comm-testimony {
-    background-color: #f85d23;
-    font-size: 20px;
-    font-weight: 500;
-    color: white;
-    text-align: justify;
+  background-color: #f85d23;
+  font-size: 20px;
+  font-weight: 500;
+  color: white;
+  text-align: justify;
 }
 
 .person-icon {
-    font-size: 16px;
-    font-weight: 400;
+  font-size: 16px;
+  font-weight: 400;
 }
 
 .person-icon img {
-    width: 60px;
-    height: 60px;
-    margin: 10px;
-    border-radius: 15px;
+  width: 60px;
+  height: 60px;
+  margin: 10px;
+  border-radius: 15px;
+}
+
+/* ---ACCORDION- CAROUSEL--- */
+
+.accordion {
+  border-radius: 10px;
+}
+
+.accordion-item {
+  background-color: #f85d23 !important;
+  color: white;
+  border: none !important;
+  border-radius: 10px;
+  outline: none;
+}
+
+.accordion-header {
+  border-radius: 10px;
+}
+
+.accordion-header button:active {
+  background-color: #f85d23 !important;
+}
+
+
+
+/* ----TESTIMONIAL CAROUSEL---- */
+
+
+
+.carousel-inner p {
+  color: black;
+}
+
+.testimonial-caro .carousel-inner img {
+  width: 150px;
+  height: 150px;
+}
+
+.carousel-caption {
+  position: static !important;
+}
+
+.carousel-indicators {
+  bottom: -25px !important;
+}
+
+.carousel-indicators button {
+  background-color: #f85d23 !important;
+  width: 10px !important;
+  height: 10px !important;
+  border-radius: 50% ;
+}
+
+/* -----BANNER----- */
+
+.banner {
+  background-color: #f85d23;
+  padding: 25px;
+}
+
+.banner .btn {
+  background-color: white;
+  color: #f85d23;
+  border-radius: 0px;
+  padding: 6 15px;
+}
+
+.banner .btn:hover {
+  background-color: black;
+  color: white;
+}
+
+/* ------FOOTER------ */
+
+.footer-last a {
+  text-decoration: none;
+  color: black;
+}
+
+.foot-heads {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.footer-last .input-group .btn {
+  color: white;
+  border-radius: 0px;
 }
