@@ -83,16 +83,30 @@
 
 /* -------ABOUT US---------- */
 
-.aboutus-detail i {
+.iconbig-one > i {
   width: 90px;
   height: 90px;
   font-size: 30px;
   color: #f85d23;
   border-radius: 50%;
-  background: rgba(248, 93, 35, 0.05);
+  background: rgba(255, 79, 15, 0.05);
   align-items: center;
   justify-content: center;
   display: flex;
+  margin-bottom: 10px;
+}
+
+
+.pricing-detail > .iconbig-one >  i {   /*ONLY FOR PRICING PAGE */
+  width: 50px;
+  height: 50px;
+  font-size: 30px;
+  color: #f85d23;
+  border-radius: 50%;
+  background: rgba(255, 79, 15, 0.05);
+  /* align-items: center;
+  justify-content: center;
+  display: flex; */
   margin-bottom: 10px;
 }
 
@@ -204,4 +218,20 @@
 .footer-last .input-group .btn {
   color: white;
   border-radius: 0px;
+}
+
+
+
+/* -----CONTACT PAGE----- */
+
+
+.contactmsg .btn {
+  padding: 15px 30px;
+  font-size: 11px;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: .05rem;
+  border-radius: 0;
+  background: #F85D23;
+  border-color: #F85D23;
 }
