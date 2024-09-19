@@ -1,4 +1,8 @@
 
+.container input:focus, textarea:focus, select:focus {
+  border-color: #f85d23 !important; 
+  box-shadow: 0 0 5px orange !important; 
+}
 
 .navbar > ul > li > a {
   color: gray;
@@ -234,4 +238,24 @@
   border-radius: 0;
   background: #F85D23;
   border-color: #F85D23;
+}
+
+
+
+
+
+.contact-icon i {
+  font-size: 20px;
+  margin-bottom: 5px;
+  color: white;
+}
+
+.contact-icon {
+  width: 33px;
+  height: 33px;
+  border-radius: 50px;
+  background-color: #F85D23;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
