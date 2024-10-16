@@ -12,5 +12,31 @@ a:hover {
     text-decoration: none
 }
 
+.parallax {
+    background-image: url("./Assests/servives-bgim.jpg");
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 500px;
+    padding: 120px;
+}
 
+.section-header {
+    margin: 25px;
+}
+
+.services-wrap {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.services-wrap i {
+    font-size: 25px;
+    margin: 10px;
+    border: 2px solid grey;
+    border-radius: 50px;
+    padding: 15px;
+}
 
