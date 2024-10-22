@@ -1,0 +1,13 @@
+* {
+    box-sizing: border-box;
+}
+
+.main-content {
+    background-image: linear-gradient(263deg, #fff, #c3c4ce 56%, #fff);
+}
+
+.tab-menus {
+    padding: 5px;
+    background-color: white;
+    display: flex;
+}
