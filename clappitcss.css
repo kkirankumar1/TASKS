@@ -2,21 +2,14 @@
     box-sizing: border-box;
 }
 
-.test {
-    margin-top: 55px;
+.main-content {
     background-image: linear-gradient(263deg, #fff, #c3c4ce 56%, #fff);
-    padding-bottom: 100px;
-
 }
 
-.tab-menus .nav-item {
-    border-radius: 10px;
-}
-
-
-.tab-menus .nav-item .nav-link.active{
-    color: white;
-    background-color: black;
+.tab-menus {
+    padding: 5px;
+    background-color: white;
+    /* display: flex; */
 }
 
 .workflow-title {
@@ -27,8 +20,7 @@
 
 .single-para1 {
     font-weight: 400;
-    font-size: 20px;
-    margin-bottom: 30px;
+    /* font-size: 20px; */
 }
 
 
@@ -41,9 +33,9 @@
     margin-bottom: 100px;
 }
 
-
-/* -----DASH-VIEW SEC----- */
-
+/* .brand-head {
+    margin: 150px 0 150px 0;
+} */
 
 .dash-view {
     margin-bottom: 100px;
@@ -97,7 +89,8 @@
     /* border: 1px solid grey; */
     border-radius: 15px;
     padding: 35px;
-    height: 100%;    
+    height: auto; 
+    /* WATCH OUT HEIGHT */
 }
 
 .cloud-smallcon h3 {
